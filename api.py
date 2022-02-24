@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route("/igor", methods=["GET"])
 def get():
     time.sleep(643)
-    return jsonify({"msg": "Igor"})
+    return jsonify({"msg": "Slava"})
 
 
 if __name__ == "__main__":
