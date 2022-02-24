@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/igor", methods=["GET"])
 def get():
-    time.sleep(53)
+    time.sleep(643)
     return jsonify({"msg": "Igor"})
 
 
